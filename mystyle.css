@@ -1,0 +1,165 @@
+﻿/* BACKGROUND */
+body {
+    background-color: #7F1400;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.invisible{
+    display : none;
+}
+/*parte superior*/
+.alltop {
+    background-color: #008049;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+.headboard {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    width: auto;
+}
+.profile, .headboard h1, .socialmidias {
+    float: left;
+    margin-inline: 1%;
+}
+.headboard h1 {
+    width: auto;
+    margin-left: 2.5%;
+    font-family : Impact;
+}
+.profile {
+    margin-left: 5%;
+}
+.profile img {
+    width : auto;
+    height: auto;
+}
+.socialmidias {
+    margin-left : auto;
+    width: auto;
+    display: flex;
+}
+.socialmidias ul li {
+    list-style-type: none;
+    float: left;
+    width : auto;
+    margin-inline : 10px;
+}
+.socialmidias ul li img{
+    width: 50px;
+    height: 50px;
+}
+/*navegação*/
+nav {
+    align-items: center;
+}
+nav ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between; 
+    width: 75%;
+    box-sizing: border-box;
+    gap: 5%;
+}
+
+nav ul li {
+    padding: 15px; 
+    text-align: center; 
+    list-style-type: none;
+}
+nav ul li:hover {
+    background-color: black;
+}
+nav ul li a {
+    text-decoration-line: none;
+    font-family: 'Lucida Console';
+    font-size: large;
+    color: white;
+    font-weight : bold;
+}
+.homelink {
+    background: white;
+}
+.homelink a {
+    text-decoration-line: none;
+    font-family: 'Lucida Console';
+    font-size: large;
+    color: black;
+    position: static;
+}
+/*main*/
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -30px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    background-color: #4778D4;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main h1{
+    text-align : center;
+    background-color : black;
+    width : 100%;
+    font-family : Arial, Helvetica, sans-serif;
+}
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.professional {
+    background-color: #002C80;
+    border-radius: 10px;
+}
+.professional h2{
+    width : 100%;
+    text-align : center;
+    font-family : monospace;
+}
+.professional p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family : Arial, Helvetica, sans-serif;
+}
+.particular {
+    display: flex;
+    flex-direction: column;
+}
+.hate, .like {
+    background-color: #002C80;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.hate h2, .like h2{
+
+    font-family: monospace;
+}
+.hate p, .like p{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.me {
+    text-align: center;
+    width: 100%;
+    color: #FFD780;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
